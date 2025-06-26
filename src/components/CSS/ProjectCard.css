@@ -1,0 +1,69 @@
+.tilted-section {
+    position: relative;
+    margin-top: -30px; /* Moves it up slightly to overlap previous section */
+    z-index: 1;
+    transform: skewY(-2deg);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-right: -100px;      /* Right side overlap */
+  
+  }
+  
+  .tilted-section > * {
+    transform: skewY(2deg); /* Cancel skew for child content */
+  }
+  .custom-underline1 {
+  width: 140px;
+  height: 3px;
+  background: linear-gradient(to right, #a100ff, #dd00ff);
+  border: none;
+  margin: 0 auto 20px auto; /* Center aligned and spaced below */
+  border-radius: 2px;
+}
+   .project-card-custom {
+    background: black;
+    color: white;
+    border-radius: 15px;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .project-card-custom:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .project-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 12px;
+  }
+  
+  .project-content {
+    padding: 0 8px;
+  }
+  
+  .bg-purple {
+    background-color: #5e4b8b;
+    color: white;
+    font-size: 0.75rem;
+  }
+  /* ProjectCard.css ya App.css me add karo */
+.btn-gradient {
+  background: linear-gradient(to right, #a100ff, #dd00ff);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}

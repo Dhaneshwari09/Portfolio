@@ -1,0 +1,63 @@
+.skills-section {
+  background: linear-gradient(135deg, #221133, #0b061a, #0b061a);
+  color: white;
+  padding: 80px 20px 60px;
+  margin-top: -40px;       /* Upper section overlap */
+  margin-right: -100px;      /* Right side overlap */
+  position: relative;
+  z-index: 1;
+  /* clip-path hata diya gaya */
+}
+  
+  /* Skill card boxes */
+  .skills-card {
+    background-color: #0d0c1d;
+    border: 1px solid #a362ea;
+    border-radius: 16px;
+    padding: 30px;
+    color: white;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+  }
+  
+  .skills-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(159, 67, 248, 0.35);
+  }
+  
+  /* Category title like Languages, etc. */
+  .category-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  .custom-underline {
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(to right, #a100ff, #dd00ff);
+  border: none;
+  margin: 0 auto 20px auto; /* Center aligned and spaced below */
+  border-radius: 2px;
+}
+
+
+  /* Individual skill pill */
+  .skill-pill {
+    background-color: #141321;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 10px;
+    padding: 8px 14px;
+    font-size: 0.95rem;
+    display: inline-flex;
+    align-items: center;
+    min-width: 100px;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Skill logo inside pill */
+  .skill-pill img {
+    width: 22px;
+    height: 22px;
+  }
+  

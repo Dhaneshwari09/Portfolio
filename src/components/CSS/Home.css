@@ -1,0 +1,110 @@
+.home-section {
+  background-color: #141321;
+  min-height: 80vh;
+  margin-right: -100px; /* Right side overlap */
+}
+
+.highlight-text {
+  color: #a362ea;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.typed-cursor {
+  display: inline-block;
+  animation: blink 1s step-end infinite;
+  color: #a362ea;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.resume-btn {
+  background: linear-gradient(to right, #a100ff, #dd00ff);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  transition: background 0.3s ease;
+}
+
+.resume-btn:hover {
+  background: linear-gradient(to right, #dd00ff, #a100ff);
+}
+
+.image-wrapper {
+  border: 3px solid #a362ea;
+  border-radius: 50%;
+  padding: 5px;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+/* ✅ Medium screen adjustment */
+@media (max-width: 1200px) {
+  .home-text-section {
+    margin-top: 40px;
+  }
+
+  .image-wrapper {
+    width: 320px;
+    height: 320px;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .home-text-section {
+    margin-top: 60px;
+  }
+
+  .image-wrapper {
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+  }
+}
+
+/* ✅ Tablet/small screen */
+@media (max-width: 768px) {
+  .home-text-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .image-wrapper {
+    width: 270px;
+    height: 270px;
+    margin-top: 30px;
+  }
+}
+
+/* ✅ Very small screen: image up, text just below with perfect spacing */
+@media (max-width: 750px) {
+  .image-wrapper {
+    width: 240px;
+    height: 240px;
+    margin-top: 20px;
+  }
+
+  .home-text-section {
+    margin-top: 10px;
+  }
+}
+
+/* ✅ Extra small phones */
+@media (max-width: 480px) {
+  .image-wrapper {
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+  }
+
+  .home-text-section {
+    margin-top: 5px;
+  }
+}
