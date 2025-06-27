@@ -1,7 +1,7 @@
 .home-section {
   background-color: #141321;
   min-height: 80vh;
-  margin-right: -100px; /* Right side overlap */
+  /* margin-right: -100px; Right side overlap */
 }
 
 .highlight-text {
@@ -45,14 +45,31 @@
 }
 
 /* ✅ Medium screen adjustment */
+@media (max-width: 1800px) {
+  .home-text-section {
+    margin-top: 40px;
+  }
+
+  .image-wrapper {
+    width: 400px;
+    height: 400px;
+    margin-top: 60px;
+  }
+  .resume-btn {
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
 @media (max-width: 1200px) {
   .home-text-section {
     margin-top: 40px;
   }
 
   .image-wrapper {
-    width: 320px;
-    height: 320px;
+    width: 340px;
+    height: 340px;
     margin-top: 60px;
   }
 }
@@ -63,8 +80,8 @@
   }
 
   .image-wrapper {
-    width: 300px;
-    height: 300px;
+    width: 310px;
+    height: 310px;
     margin-top: 40px;
   }
 }
@@ -77,8 +94,8 @@
   }
 
   .image-wrapper {
-    width: 270px;
-    height: 270px;
+    width: 290px;
+    height: 290px;
     margin-top: 30px;
   }
 }
@@ -86,22 +103,27 @@
 /* ✅ Very small screen: image up, text just below with perfect spacing */
 @media (max-width: 750px) {
   .image-wrapper {
-    width: 240px;
-    height: 240px;
-    margin-top: 20px;
+    width: 260px;
+    height: 260px;
+    margin-top: 50px;
   }
 
   .home-text-section {
     margin-top: 10px;
   }
+
+  .resume-btn {
+    width: 250px;
+    margin-bottom: 20px;
+}
 }
 
 /* ✅ Extra small phones */
 @media (max-width: 480px) {
   .image-wrapper {
-    width: 200px;
-    height: 200px;
-    margin-top: 15px;
+    width: 230px;
+    height: 230px;
+    margin-top: 40px;
   }
 
   .home-text-section {

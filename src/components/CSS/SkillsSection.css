@@ -3,7 +3,7 @@
   color: white;
   padding: 80px 20px 60px;
   margin-top: -40px;       /* Upper section overlap */
-  margin-right: -100px;      /* Right side overlap */
+  /* margin-right: -100px;      Right side overlap */
   position: relative;
   z-index: 1;
   /* clip-path hata diya gaya */

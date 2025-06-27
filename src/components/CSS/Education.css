@@ -3,11 +3,8 @@
   color: white;
   padding: 40px 0;
   margin-top: -30px;  
-  margin-right: -100px;      /* Right side overlap */
-       /* Top overlap */
+  
 }
-
-
 .timeline {
   position: relative;
   width: 70%;
@@ -88,4 +85,38 @@
   border: none;
   margin: 0 auto 20px auto; /* Center aligned and spaced below */
   border-radius: 2px;
+}
+@media (max-width: 920px) {
+  .timeline {
+    width: 95%;
+    padding-right: 60px;
+  }
+
+  .timeline-line {
+    right: 35px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding: 20px 20px 20px 25px;
+  }
+
+  .edu-header {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .edu-text {
+    padding-left: 10;
+  }
+
+  .edu-logo {
+    width: 50px;
+    height: 30px;
+  }
+
+  .timeline-dot::before {
+    right: -30px;
+  }
 }

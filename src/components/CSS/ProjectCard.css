@@ -5,7 +5,7 @@
     transform: skewY(-2deg);
     padding-top: 80px;
     padding-bottom: 80px;
-    margin-right: -100px;      /* Right side overlap */
+    /* margin-right: -100px;      Right side overlap */
   
   }
   
@@ -66,4 +66,11 @@
 .btn-gradient:hover {
   opacity: 0.9;
   transform: translateY(-2px);
+}
+@media (max-width: 550px) {
+  
+   .project-card-custom {
+    margin: 0px 20px 0px 20px;
+  }
+  
 }

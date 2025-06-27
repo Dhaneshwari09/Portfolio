@@ -1,43 +1,61 @@
 import React from "react";
 import "./CSS/SkillsSection.css";
+import java from "./assets/icons/java.png";
+import html from "./assets/icons/html.png";
+import xml from "./assets/icons/xml.png";
+import js from "./assets/icons/js.png";
+import css from "./assets/icons/css.png";
+import node from "./assets/icons/node.png";
+import react from "./assets/icons/react.png";
+import bootstrap from "./assets/icons/bootstrap.jpg";
+import springbbot from "./assets/icons/springbbot.png";
+import mysql from "./assets/icons/mysql.jpg";
+import git from "./assets/icons/git.png";
+import github from "./assets/icons/github.png";
+import postman from "./assets/icons/postman.png";
+import android from "./assets/icons/android.jpg";
+import dsa from "./assets/icons/dsa.png";
+import oops from "./assets/icons/oops.webp";
+import dbms from "./assets/icons/dbms.webp";
+import os from "./assets/icons/os.jpg";
 
 const skillsData = [
   {
     title: "Languages & Development",
     skills: [
-      { name: "Java", icon: "/icons/java.png"},
-      { name: "XML", icon: "/icons/xml.png"},
-      { name: "JavaScript", icon: "/icons/js.png"},
-      { name: "HTML", icon: "/icons/html.png" },
-      { name: "CSS", icon: "/icons/css.png" },
+      { name: "Java", icon: java},
+      { name: "XML", icon: xml},
+      { name: "JavaScript", icon: js},
+      { name: "HTML", icon: html },
+      { name: "CSS", icon: css},
     ],
   },
   {
     title: "Frameworks/Libraries",
     skills: [
-      { name: "Node Js", icon: "/icons/node.png" },
-      { name: "React Js", icon: "/icons/react.png" },
-      { name: "BootStrap", icon: "/icons/bootstrap.jpg" },
-      { name: "Spring Boot", icon: "/icons/springbbot.png" },
+      { name: "Node Js", icon: node},
+      { name: "React Js", icon: react },
+      { name: "BootStrap", icon: bootstrap },
+      { name: "Spring Boot", icon: springbbot },
     ],
   },
   {
     title: "Database & Tool",
     skills: [
-      { name: "MySQL", icon: "/icons/mysql.jpg" },
-      { name: "Git", icon: "/icons/git.png" },
-      {name: "Github", icon: "/icons/github.png" },
-      {name: "Postman", icon: "/icons/postman.png" },
-      { name: "Android", icon: "/icons/android.png"},
+      { name: "MySQL", icon: mysql },
+      { name: "Git", icon: git },
+      {name: "Github", icon: github },
+      {name: "Postman", icon: postman },
+      { name: "Android", icon: android},
     ],
   },
   {
     title: "Fundamentals",
     skills: [
-      { name: "DSA", icon: "/icons/dsa.png" },
-      { name: "OOPS", icon: "/icons/oops.webp" },
-      { name: "DBMS", icon: "/icons/dbms.webp" },
-      { name: "OS", icon: "/icons/os.jpg" },
+      { name: "DSA", icon: dsa },
+      { name: "OOPS", icon: oops },
+      { name: "DBMS", icon: dbms },
+      { name: "OS", icon: os },
     ],
   },
 ];

@@ -1,6 +1,8 @@
 import React from "react";
 import "./CSS/Home.css";
 import { ReactTyped } from "react-typed";
+import profile from "./assets/profile.jpg";
+import resume from "./assets/resume.pdf";
 
 export default function Home() {
   return (
@@ -33,7 +35,7 @@ export default function Home() {
             </p>
 
             <a
-              href="/resume.pdf"
+              href={resume}
               target="_blank"
               rel="noopener noreferrer"
               className="btn resume-btn mt-4 px-4 py-2 fw-bold"
@@ -41,12 +43,11 @@ export default function Home() {
               Career Profile
             </a>
           </div>
-
           {/* Right Column - Image */}
           <div className="col-md-6 text-center mb-4">
             <div className="image-wrapper mx-auto">
               <img
-                src="/profile.jpg"
+                src={profile}
                 alt="Profile"
                 className="img-fluid rounded-circle"
               />
