@@ -1,80 +1,54 @@
-import React, { useEffect } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
+import React, { useState } from "react";
 import "./CSS/Navbar.css";
 
 export default function Navbar() {
-  useEffect(() => {
-    const links = document.querySelectorAll(".nav-link");
-    const toggler = document.querySelector(".navbar-toggler");
-    const navbarCollapse = document.getElementById("navbarContent");
+  const [menuOpen, setMenuOpen] = useState(false);
 
-    links.forEach((link) => {
-      link.addEventListener("click", () => {
-        if (navbarCollapse.classList.contains("show")) {
-          toggler.click();
-        }
-      });
-    });
-
-    return () => {
-      links.forEach((link) => {
-        link.removeEventListener("click", () => {});
-      });
-    };
-  }, []);
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+  const closeMenu = () => setMenuOpen(false);
 
   return (
-    <nav className="navbar navbar-expand-lg custom-navbar px-4 py-3">
+    <nav className="navbar custom-navbar">
       <div className="container">
-        <a className="navbar-brand d-flex mt-2 align-items-center text-white fw-bold" href="#home">
+        {/* Logo */}
+        <a href="#home" className="navbar-brand text-white fw-bold" onClick={closeMenu}>
           <div className="logo-circle me-2"></div>
-          <span className="ms-2">Portfolio</span>
+           Portfolio
         </a>
 
-        <button
-          className="navbar-toggler text-white border-0"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarContent"
-          aria-controls="navbarContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
-        <div className="collapse navbar-collapse" id="navbarContent">
-          <ul className="navbar-nav ms-auto gap-lg-4 text-center align-items-center justify-content-end w-100 pe-4">
-            <li className="nav-item">
-              <a className="nav-link text-white" href="#home">Home</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-white" href="#skills">Skills</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-white" href="#projects">Projects</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-white" href="#education">Education</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-white" href="#contact">Contact</a>
-            </li>
-            <li className="nav-item d-lg-none mt-3 px-3">
-              <a
-                href="https://github.com/Dhaneshwari09"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn rounded-pill custom-github-btn text-white w-100"
-              >
-                GitHub Profile
-              </a>
-            </li>
-          </ul>
+        {/* Hamburger Icon */}
+        <div className="menu-icon" onClick={toggleMenu}>
+          <div className={`bar ${menuOpen ? "open1" : ""}`}></div>
+          <div className={`bar ${menuOpen ? "open2" : ""}`}></div>
+          <div className={`bar ${menuOpen ? "open3" : ""}`}></div>
         </div>
 
-        <div className="d-none d-lg-block ms-3">
+        {/* Nav Links */}
+        <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
+          {["home", "skills", "projects", "education", "contact"].map((item) => (
+            <li key={item}>
+              <a href={`#${item}`} className="nav-link text-white" onClick={closeMenu}>
+                {item.charAt(0).toUpperCase() + item.slice(1)}
+              </a>
+            </li>
+          ))}
+
+          {/* GitHub Button (mobile) */}
+          <li className="d-lg-none">
+            <a
+              href="https://github.com/Dhaneshwari09"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn rounded-pill custom-github-btn text-white mt-2"
+              onClick={closeMenu}
+            >
+              GitHub Profile
+            </a>
+          </li>
+        </ul>
+
+        {/* GitHub Button (desktop) */}
+        <div className="d-none d-lg-block">
           <a
             href="https://github.com/Dhaneshwari09"
             target="_blank"

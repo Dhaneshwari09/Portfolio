@@ -83,30 +83,30 @@
   height: 3px;
   background: linear-gradient(to right, #a100ff, #dd00ff);
   border: none;
-  margin: 0 auto 20px auto; /* Center aligned and spaced below */
+  margin: 0 auto 20px auto; 
   border-radius: 2px;
 }
 @media (max-width: 900px) {
   .timeline {
     width: 95%;
-    padding-right: 40px; /* slightly less */
+    padding-right: 40px; 
   }
 
   .timeline-line {
-    right: 20px; /* move line closer to edge */
+    right: 20px; 
   }
 
   .timeline-item {
     width: 100%;
-    padding: 15px 15px 15px 20px;
-    margin-bottom: 0px; /* less space between cards */
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 0px; 
   }
 
   .edu-header {
     flex-direction: column;
-    align-items: center; /* center logo and text */
+    align-items: center; 
     gap: 10px;
-    text-align: center; /* center all text */
+    text-align: center;
   }
 
   .edu-logo {
@@ -116,16 +116,16 @@
   }
 
   .edu-text {
-    padding-left: 10; /* remove side gap */
+    padding-left: 10; 
   }
 
   .edu-grade {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
   }
 
   .timeline-dot::before {
-    right: -25px; /* reposition dot */
+    right: -25px; 
   }
   .text{
     margin-left: 10px ;
