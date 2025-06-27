@@ -34,7 +34,7 @@ const EducationSection = () => {
     <section className="education-section">
       <h2 className="text-center fw-bold">Education</h2>
       <hr className="custom-underline2" />
-      <p className="text-center mb-5">
+      <p className="text-center mb-5 text">
         My academic journey has been a blend of consistent learning, curiosity, and growth. Here are the details of my educational background.
       </p>
 

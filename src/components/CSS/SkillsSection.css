@@ -8,7 +8,9 @@
   z-index: 1;
   /* clip-path hata diya gaya */
 }
-  
+  .text{
+    font-size: 1.1rem;
+  }
   /* Skill card boxes */
   .skills-card {
     background-color: #0d0c1d;

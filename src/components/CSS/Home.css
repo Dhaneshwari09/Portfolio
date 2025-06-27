@@ -2,6 +2,7 @@
   background-color: #141321;
   min-height: 80vh;
   /* margin-right: -100px; Right side overlap */
+ 
 }
 
 .highlight-text {
@@ -45,24 +46,7 @@
 }
 
 /* ✅ Medium screen adjustment */
-@media (max-width: 1800px) {
-  .home-text-section {
-    margin-top: 40px;
-  }
-
-  .image-wrapper {
-    width: 400px;
-    height: 400px;
-    margin-top: 60px;
-  }
-  .resume-btn {
-    width: 250px;
-    height: 50px;
-    margin-top: 30px;
-    text-align: center;
-  }
-}
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   .home-text-section {
     margin-top: 40px;
   }
@@ -80,8 +64,8 @@
   }
 
   .image-wrapper {
-    width: 310px;
-    height: 310px;
+    width: 320px;
+    height: 320px;
     margin-top: 40px;
   }
 }
@@ -130,3 +114,39 @@
     margin-top: 5px;
   }
 }
+
+
+
+@media (max-width: 400px) {
+  .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .home-text-section {
+    padding: 0 !important;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .home-text-section p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .resume-btn {
+    width: 100%;
+    max-width: 250px;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .profile-img {
+    width: 180px;
+    height: 180px;
+  }
+}
+

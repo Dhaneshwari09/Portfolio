@@ -35,7 +35,7 @@ const Projects = () => {
 >     
     <h2 className="fw-bold">Projects</h2>
     <hr className="custom-underline1" />
-      <p className="mb-5">I’ve built and contributed to a variety of projects. Here are a few that showcase my skills and experience.</p>
+      <p className="mb-5 text">I’ve built and contributed to a variety of projects. Here are a few that showcase my skills and experience.</p>
       <div className="container">
         <div className="row justify-content-center">
           {projectList.map((project, idx) => (

@@ -8,7 +8,9 @@
     /* margin-right: -100px;      Right side overlap */
   
   }
-  
+  .text{
+    font-size: 1.1rem;
+  }
   .tilted-section > * {
     transform: skewY(2deg); /* Cancel skew for child content */
   }

@@ -66,7 +66,7 @@ export default function SkillsSection() {
       <div className="container text-center">
         <h2 className="fw-bold mb-2 text-white">Skills</h2>
          <hr className="custom-underline" />
-        <p className="text-light mb-5">
+        <p className="text mb-5">
           These are the technologies and tools I’ve worked with and continue to improve upon.
         </p>
 
