@@ -123,7 +123,7 @@
 }
 
 /* ✅ Mobile View */
-@media (max-width: 991px) {
+@media (max-width: 995px) {
   .menu-icon {
     display: flex;
     margin-top: 20px;
@@ -142,7 +142,7 @@
     background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(10px);
     flex-direction: column;
-    padding: 10px;
+    padding: 0px;
     border-radius: 12px;
     display: none;
     z-index: 999;
@@ -154,19 +154,33 @@
 
   .nav-link {
     font-size: 1rem;
-    padding: 12px 0;
-    text-align: center;
+    padding: 0px 40px;
+    text-align: start;
   }
 
   .custom-github-btn {
-    width: 100%;
+    width: 20%;
     text-align: center;
     margin-top: 10px;
-    margin-left: auto;
+    margin-left: 30px;
+    margin-bottom: 10px;
     margin-right: auto;
+    background-color: #9f43f8;
   }
 
   .nav-links li {
     width: 100%;
+  }
+}
+@media (max-width: 675px) {
+ .custom-github-btn {
+    width: 30%;
+   
+  }
+}
+@media (max-width: 475px) {
+ .custom-github-btn {
+    width: 40%;
+    
   }
 }
