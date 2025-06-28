@@ -1,4 +1,4 @@
-// // .home-section {
+// //  .home-section {
 //   background-color: #141321;
 //   min-height: 45vh;
 //   padding: 30px 0; /* start hi kam se */

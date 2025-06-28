@@ -30,6 +30,7 @@
   background-color: white;
   border-radius: 50%;
   position: relative;
+ 
 }
 .logo-circle::after {
   content: "";
