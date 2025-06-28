@@ -1,6 +1,6 @@
   .home-section {
   background-color: #141321;
-  min-height: 45vh;
+  min-height: 0vh;
   padding: 30px 0; /* start hi kam se */
 }
 
@@ -45,12 +45,15 @@
   width: 350px;
   height: 350px;
   overflow: hidden;
-  margin-top: 20px; /* kam top space */
+  margin-top: 0px; /* kam top space */
 }
+.text-center{
+    margin-top: 50px;
+  }
 @media (max-width: 1700px) {
   .home-section {
   background-color: #141321;
-  min-height: 50vh;
+  min-height: 0vh;
   padding: 30px 0; /* start hi kam se */
 }
 
@@ -62,7 +65,7 @@
 @media (max-width: 1220px) {
   .home-section {
   background-color: #141321;
-  min-height: 50vh;
+  min-height: 0vh;
   padding: 30px 0; 
 }
 .image-wrapper {
@@ -78,7 +81,7 @@
     padding: 25px 0;
   }
   .image-wrapper {
-    margin-top: 15px;
+    margin-top: 0px;
   }
 }
 /* Tablets & small screens */
