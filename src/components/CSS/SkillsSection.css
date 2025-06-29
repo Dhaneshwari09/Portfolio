@@ -2,11 +2,13 @@
   background: linear-gradient(135deg, #221133, #0b061a, #0b061a);
   color: white;
   padding: 80px 20px 60px;
-  margin-top: -40px;       /* Upper section overlap */
-  /* margin-right: -100px;      Right side overlap */
+  margin-top: -40px;    
   position: relative;
   z-index: 1;
   /* clip-path hata diya gaya */
+}
+.texttt{
+  margin-top: 10px;
 }
   .text{
     font-size: 1.1rem;

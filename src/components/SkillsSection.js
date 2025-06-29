@@ -63,8 +63,8 @@ const skillsData = [
 export default function SkillsSection() {
   return (
     <section className="skills-section py-5">
-      <div className="container text-center">
-        <h2 className="fw-bold mb-2 text-white">Skills</h2>
+      <div className="container text-center texttt">
+        <h2 className="fw-bold mb-2 text-white contact-heading">Skills</h2>
          <hr className="custom-underline" />
         <p className="text mb-5">
           These are the technologies and tools I’ve worked with and continue to improve upon.
