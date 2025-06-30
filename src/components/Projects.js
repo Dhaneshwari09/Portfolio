@@ -9,10 +9,12 @@ const Projects = () => {
       title: 'FileMiner App',
       image: fileminer,
       tags: ['Java', 'Android Studio', 'XML', 'Glide', 'Material Design'],
-      description:
-        'FileMiner is a smart and lightweight file manager app that helps you manage, sort, search, and organize your files with ease. It supports advanced filters, batch actions, and duplicate file detection — all packed in a clean and user-friendly interface.',
-      codeLink: 'https://github.com/Dhaneshwari09/android_java_recover_deleted_files',
-      liveLink: '',
+      
+  description: 'FileMiner is a smart and lightweight file manager app that helps you manage, sort, search, and organize your files with ease. It supports advanced filters, batch actions, and duplicate file detection — all packed in a clean and user-friendly interface. The app also includes an "Exclude Folders" feature, allowing you to skip specific folders while searching or filtering, giving you more control over your file operations.',
+  codeLink: 'https://github.com/Dhaneshwari09/android_java_recover_deleted_files',
+  liveLink: ''
+
+
     },
     {
       title: 'TextUtil Web App',

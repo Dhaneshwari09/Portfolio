@@ -9,21 +9,18 @@
   border: none !important;
 }
 
-/* Align logo and nav links */
 .navbar .container-fluid {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* Brand */
 .navbar-brand {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-/* Logo Circle */
 .logo-circle {
   width: 20px;
   height: 20px;
@@ -54,7 +51,6 @@
   border-radius: 50%;
 }
 
-/* Nav links (desktop) */
 .nav-links {
   display: flex;
   align-items: center;
@@ -65,7 +61,6 @@
   margin-top: 10px;
 }
 
-/* Nav link items */
 .nav-link {
   color: white !important;
   padding: 10px 16px;
@@ -87,7 +82,6 @@
   width: 100%;
 }
 
-/* GitHub button */
 .custom-github-btn {
   color: #9f43f8;
   border: 1.5px solid #9f43f8;
@@ -98,7 +92,6 @@
   color: white;
 }
 
-/* Hamburger menu icon */
 .menu-icon {
   display: none;
   flex-direction: column;

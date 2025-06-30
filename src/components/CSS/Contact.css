@@ -3,7 +3,6 @@
   padding: 50px 20px;
   background: linear-gradient(135deg, #1c102b, #0b061a);
   color: white;
-  /* margin-right: -100px;      Right side overlap */
 
 }
 
@@ -72,7 +71,7 @@
   height: 3px;
   background: linear-gradient(to right, #a100ff, #dd00ff);
   border: none;
-  margin: 0 auto 20px auto; /* Center aligned and spaced below */
+  margin: 0 auto 20px auto; 
   border-radius: 2px;
 }
 .popup-message {

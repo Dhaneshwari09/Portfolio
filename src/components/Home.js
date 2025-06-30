@@ -6,7 +6,6 @@ import resume from "./assets/resume.pdf";
 
 export default function Home() {
   return (
-    // <div className="home-section d-flex align-items-center text-white px-3 px-sm-5 px-5 py-5">
         <div className="home-section d-flex align-items-center text-white px-3 py-5">
 
       <div className="container">

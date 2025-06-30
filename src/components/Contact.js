@@ -12,10 +12,8 @@ const Contact = () => {
     setUserName(name);
     setShowMessage(true);
 
-    // ✅ Clear the form after submission
     form.reset();
 
-    // ✅ Hide popup after 3 sec
     setTimeout(() => setShowMessage(false), 3000);
   };
 
@@ -49,14 +47,12 @@ const Contact = () => {
           <input type="text" name="subject" placeholder="Subject" required />
           <textarea name="message" placeholder="Message" rows="5" required />
 
-          {/* Hidden config for FormSubmit */}
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_template" value="box" />
 
           <button type="submit">Send</button>
         </form>
 
-        {/* 👻 Hidden iframe so page doesn't reload */}
         <iframe name="hidden_iframe" style={{ display: "none" }}></iframe>
 
         {/* ✅ Success Popup */}

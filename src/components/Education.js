@@ -35,7 +35,7 @@ const EducationSection = () => {
         <h2 className="text-center fw-bold text-white texttt contact-heading">Education</h2>
         <hr className="custom-underline2" />
 
-        <p className="text-center mb-5 text-white" style={{ maxWidth: "800px", margin: "0 auto" }}>
+        <p className="text-center mb-5 text-white textt" style={{ maxWidth: "800px", margin: "0 auto" }}>
           My academic journey has been a blend of consistent learning, curiosity, and growth.
           Here are the details of my educational background.
         </p>

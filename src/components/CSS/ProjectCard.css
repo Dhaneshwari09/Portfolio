@@ -1,25 +1,24 @@
 .tilted-section {
     position: relative;
-    margin-top: -30px; /* Moves it up slightly to overlap previous section */
+    margin-top: -30px; 
     z-index: 1;
     transform: skewY(-2deg);
     padding-top: 80px;
     padding-bottom: 80px;
-    /* margin-right: -100px;      Right side overlap */
   
   }
   .text{
     font-size: 1.1rem;
   }
   .tilted-section > * {
-    transform: skewY(2deg); /* Cancel skew for child content */
+    transform: skewY(2deg);
   }
   .custom-underline1 {
   width: 140px;
   height: 3px;
   background: linear-gradient(to right, #a100ff, #dd00ff);
   border: none;
-  margin: 0 auto 20px auto; /* Center aligned and spaced below */
+  margin: 0 auto 20px auto;
   border-radius: 2px;
 }
    .project-card-custom {
@@ -54,7 +53,6 @@
     color: white;
     font-size: 0.75rem;
   }
-  /* ProjectCard.css ya App.css me add karo */
 .btn-gradient {
   background: linear-gradient(to right, #a100ff, #dd00ff);
   color: white;

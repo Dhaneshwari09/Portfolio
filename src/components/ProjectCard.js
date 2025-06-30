@@ -16,7 +16,6 @@ const ProjectCard = ({
 
   return (
     <>
-      {/* Unified Project Card */}
       <div className="project-card-custom" onClick={handleShow}>
         <img src={image} className="project-img" alt={title} />
         <div className="project-content">
@@ -32,7 +31,6 @@ const ProjectCard = ({
         </div>
       </div>
 
-      {/* Modal */}
       <Modal
         show={show}
         onHide={handleClose}

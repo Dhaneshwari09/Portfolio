@@ -5,7 +5,6 @@
   margin-top: -40px;    
   position: relative;
   z-index: 1;
-  /* clip-path hata diya gaya */
 }
 .texttt{
   margin-top: 10px;
@@ -13,7 +12,6 @@
   .text{
     font-size: 1.1rem;
   }
-  /* Skill card boxes */
   .skills-card {
     background-color: #0d0c1d;
     border: 1px solid #a362ea;
@@ -28,7 +26,6 @@
     box-shadow: 0 10px 20px rgba(159, 67, 248, 0.35);
   }
   
-  /* Category title like Languages, etc. */
   .category-title {
     font-weight: bold;
     font-size: 1.5rem;
@@ -39,12 +36,11 @@
   height: 3px;
   background: linear-gradient(to right, #a100ff, #dd00ff);
   border: none;
-  margin: 0 auto 20px auto; /* Center aligned and spaced below */
+  margin: 0 auto 20px auto; 
   border-radius: 2px;
 }
 
 
-  /* Individual skill pill */
   .skill-pill {
     background-color: #141321;
     color: white;
@@ -59,7 +55,6 @@
     transition: background-color 0.3s ease;
   }
   
-  /* Skill logo inside pill */
   .skill-pill img {
     width: 22px;
     height: 22px;
