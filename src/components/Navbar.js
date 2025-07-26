@@ -25,7 +25,7 @@ export default function Navbar() {
 
         {/* Nav Links */}
         <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
-          {["home", "skills", "projects", "education", "contact"].map((item) => (
+          {["home", "skills", "experience", "projects", "education", "contact"].map((item) => (
             <li key={item}>
               <a href={`#${item}`} className="nav-link text-white" onClick={closeMenu}>
                 {item.charAt(0).toUpperCase() + item.slice(1)}

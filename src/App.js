@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Skill from './components/SkillsSection';
+import Experienece from './components/Experience';
 import Project from './components/Projects';
 import Education from './components/Education';
 import Contact from './components/Contact';
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div id="skills">
         <Skill />
+      </div>
+      <div id="experience">
+        <Experienece />
       </div>
       <div id="projects">
         <Project />
